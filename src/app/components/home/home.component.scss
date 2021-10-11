@@ -2,11 +2,16 @@
   max-width: 1200px;
   margin: 20px auto;
   padding-left: 20px;
+  font-size: 125% !important;
+  font-weight: 125% !important;
 }
   
 ::ng-deep {
   .mat-form-field-infix {
     background-color: #3f51b5;
+  }
+  .mat-form-field-flex {
+    min-width: 220px;
   }
 
   .mat-select-value,
@@ -14,9 +19,7 @@
   .mat-form-field-hide-placeholder .mat-select-placeholder,
   .mat-form-field-appearance-legacy .mat-form-field-label {
     color: #fff !important;
-    opacity: 1;
-    font-size: 20px !important;
-    font-weight: 500 !important;
+    opacity: 1 !important;
   }
 
   .mat-form-field-infix {
@@ -33,10 +36,10 @@
     background-color: #fff !important;
   }
 
-  .mat-option-text {
-    background-color: #fff;
-    max-width: 350px;
-  }
+  // .mat-option-text {
+  //   background-color: #fff;
+  //   max-width: 350px;
+  // }
 }
 
 .games {
@@ -107,3 +110,4 @@
     margin-right: 10px;
   }
 }
+
