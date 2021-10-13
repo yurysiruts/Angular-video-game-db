@@ -12,6 +12,7 @@ export interface Game {
   ratings: Array<Rating>;
   screenshots: Array<Screenshots>;
   trailers: Array<Trailer>;
+  stores: Array<Store>
 }
 
 export interface APIResponse<T> {
@@ -46,4 +47,12 @@ interface Trailer {
   data: {
     max: string;
   };
+}
+
+interface Store {
+  store: {
+    domain: string;
+    name: string;
+    image_background: string;
+  }
 }
