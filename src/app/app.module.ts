@@ -16,12 +16,14 @@ import { MatSelectModule } from '@angular/material/select';
 import { HomeComponent } from './components/home/home.component';
 import { HttpHeadersInterceptor } from './intercepters/http-headers.interceptor';
 import { HttpErrorsInterceptor } from './intercepters/http-errors.interceptor';
+import { DetailsComponent } from './components/details/details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SearchBarComponent,
-    HomeComponent
+    HomeComponent,
+    DetailsComponent
   ],
   imports: [
     BrowserModule,
